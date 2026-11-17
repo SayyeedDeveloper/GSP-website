@@ -31,9 +31,6 @@ export function Quality() {
               </li>
             ))}
           </ul>
-          <p className="caption-2 mt-8 text-paper/60">
-            <span className="tbd">{"{{certificate_scans}}"}</span>
-          </p>
         </Reveal>
 
         <Reveal delay={0.1} className="relative">

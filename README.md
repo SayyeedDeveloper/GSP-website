@@ -19,7 +19,6 @@ Anything shown in an amber `{{...}}` chip is a fact the original site did not ha
 |---|---|
 | Sample reviews and client logos (fictional brands) | `components/Proof.tsx`, `components/BrandLogos.tsx` |
 | `{{min_order}}`, `{{printing_options}}`, `{{lead_time}}`, `{{payment_terms}}` | `components/Faq.tsx` |
-| `{{certificate_scans}}` | `components/Quality.tsx` |
 | `{{privacy_policy}}`, `{{terms_of_service}}` | `app/legal/page.tsx` |
 
 The quote form currently opens the visitor's email app addressed to rayonsabr@gmail.com. To receive leads directly, add an API route (for example a Telegram bot) and call it from `components/QuoteForm.tsx`.
