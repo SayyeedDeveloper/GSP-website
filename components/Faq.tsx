@@ -7,17 +7,14 @@ import { useApp } from "./Providers";
 import { EASE, Reveal } from "./Reveal";
 import type { Key } from "@/lib/i18n";
 
-/** Answers marked null are facts the client still has to supply. */
-const QA: { q: Key; a: Key | null; tbd?: string }[] = [
+const QA: { q: Key; a: Key }[] = [
   { q: "f1.q", a: "f1.a" },
-  { q: "f2.q", a: null, tbd: "{{min_order}}" },
+  { q: "f10.q", a: "f10.a" },
   { q: "f3.q", a: "f3.a" },
-  { q: "f4.q", a: null, tbd: "{{printing_options}}" },
   { q: "f5.q", a: "f5.a" },
-  { q: "f6.q", a: null, tbd: "{{lead_time}}" },
   { q: "f7.q", a: "f7.a" },
+  { q: "f11.q", a: "f11.a" },
   { q: "f8.q", a: "f8.a" },
-  { q: "f9.q", a: null, tbd: "{{payment_terms}}" },
 ];
 
 export function Faq() {
@@ -69,7 +66,7 @@ export function Faq() {
                       transition={{ duration: 0.4, ease: EASE }}
                     >
                       <p className="body-3 pb-6 text-ink-muted">
-                        {item.a ? t(item.a) : <span className="tbd">{item.tbd}</span>}
+                        {t(item.a)}
                       </p>
                     </motion.div>
                   )}
