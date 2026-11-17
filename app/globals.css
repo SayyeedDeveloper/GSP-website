@@ -35,6 +35,7 @@
 @utility body-1 { font-size: var(--text-base); line-height: var(--text-base--line-height); font-weight: 600; }
 @utility body-2 { font-size: var(--text-base); line-height: var(--text-base--line-height); font-weight: 500; }
 @utility body-3 { font-size: var(--text-base); line-height: var(--text-base--line-height); font-weight: 400; }
+@utility body-4 { font-size: var(--text-sm); line-height: var(--text-sm--line-height); font-weight: 600; }
 @utility body-5 { font-size: var(--text-sm); line-height: var(--text-sm--line-height); font-weight: 500; }
 @utility body-6 { font-size: var(--text-sm); line-height: var(--text-sm--line-height); font-weight: 400; }
 @utility button-md { font-size: var(--text-base); line-height: var(--text-base--line-height); font-weight: 600; }

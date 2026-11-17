@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { InstagramLogo, TelegramLogo } from "@phosphor-icons/react";
 import { useApp } from "./Providers";
 import { EMAIL, PHONE, PHONE_LABEL } from "@/lib/i18n";
 
@@ -30,9 +29,6 @@ export function Footer() {
           <ul className="body-6 mt-4 space-y-2 text-ink-muted">
             <li><a className={link} href={`tel:${PHONE}`}>{PHONE_LABEL}</a></li>
             <li><a className={link} href={`mailto:${EMAIL}`}>{EMAIL}</a></li>
-            {/* The old site linked both socials to the phone number. Replace with real URLs. */}
-            <li className="flex items-center gap-2"><TelegramLogo aria-hidden /> Telegram <span className="tbd caption-4">{"{{telegram_url}}"}</span></li>
-            <li className="flex items-center gap-2"><InstagramLogo aria-hidden /> Instagram <span className="tbd caption-4">{"{{instagram_url}}"}</span></li>
           </ul>
         </div>
       </div>

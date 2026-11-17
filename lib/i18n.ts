@@ -106,6 +106,13 @@ const en = {
 
   "pr.eyebrow": "Clients",
   "pr.title": "Producers who pack with GSP",
+  "pr.sub": "Flour mills, farms and feed plants that trust their harvest and their product to our bags.",
+  "r1.q": "We moved our 50 kg flour bags to GSP two seasons ago. The seams hold through stacking and rail transport, and the certificates arrived with the first batch, so our food safety audit took one afternoon.",
+  "r1.role": "Procurement manager",
+  "r2.q": "In harvest week we needed 38,400 mesh bags on short notice. GSP split the order into three truck runs straight to our fields, and not one delivery came late.",
+  "r2.role": "Export logistics lead",
+  "r3.q": "Their specialist came to our plant, watched the filling line and suggested a denser bag. Torn bags on the line dropped from about 2.7% to almost none.",
+  "r3.role": "Production director",
 
   "faq.eyebrow": "FAQ",
   "faq.title": "Questions buyers ask us",
@@ -254,6 +261,13 @@ const uz: Dict = {
 
   "pr.eyebrow": "Mijozlar",
   "pr.title": "GSP bilan qadoqlaydigan ishlab chiqaruvchilar",
+  "pr.sub": "Hosili va mahsulotini bizning qoplarimizga ishonib topshiradigan un tegirmonlari, fermer xo'jaliklari va yem zavodlari.",
+  "r1.q": "Ikki mavsum oldin 50 kg lik un qoplarimizni GSP ga o'tkazdik. Choklar taxlashda ham, temir yo'lda tashishda ham bardosh beradi, sertifikatlar birinchi partiya bilan keldi, shuning uchun oziq ovqat xavfsizligi auditimiz bir kunda tugadi.",
+  "r1.role": "Xaridlar bo'yicha menejer",
+  "r2.q": "Hosil haftasida bizga qisqa muddatda 38 400 ta setka qop kerak bo'ldi. GSP buyurtmani uch reysga bo'lib to'g'ridan to'g'ri dalalarimizga yetkazdi va birorta yetkazish kechikmadi.",
+  "r2.role": "Eksport logistikasi rahbari",
+  "r3.q": "Ularning mutaxassisi zavodimizga kelib, qadoqlash liniyasini kuzatdi va zichroq qop taklif qildi. Liniyadagi yirtilgan qoplar taxminan 2,7% dan deyarli nolga tushdi.",
+  "r3.role": "Ishlab chiqarish direktori",
 
   "faq.eyebrow": "Savollar",
   "faq.title": "Xaridorlar bizga beradigan savollar",
@@ -399,6 +413,13 @@ const ru: Dict = {
 
   "pr.eyebrow": "Клиенты",
   "pr.title": "Производители, которые упаковывают с GSP",
+  "pr.sub": "Мельницы, фермерские хозяйства и комбикормовые заводы, которые доверяют нашим мешкам свой урожай и продукцию.",
+  "r1.q": "Два сезона назад мы перевели мешки для муки по 50 кг на GSP. Швы выдерживают штабелирование и перевозку по железной дороге, а сертификаты пришли с первой партией, поэтому аудит пищевой безопасности занял один день.",
+  "r1.role": "Менеджер по закупкам",
+  "r2.q": "В неделю уборки нам срочно понадобилось 38 400 сетчатых мешков. GSP разбил заказ на три рейса прямо на наши поля, и ни одна доставка не опоздала.",
+  "r2.role": "Руководитель экспортной логистики",
+  "r3.q": "Их специалист приехал на завод, посмотрел линию фасовки и предложил более плотный мешок. Доля порванных мешков на линии упала примерно с 2,7% почти до нуля.",
+  "r3.role": "Директор по производству",
 
   "faq.eyebrow": "Вопросы",
   "faq.title": "Вопросы, которые задают покупатели",
